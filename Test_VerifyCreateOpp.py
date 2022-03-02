@@ -5,6 +5,7 @@ from Methods import Methods_List
 
 
 class Test_VerifyCreateOpportunity():
+    #New changes after R1.0
     def test_createopp(self):
         workbook = xlrd.open_workbook("C:\\Users\\MEGHANA\\Desktop\\TestData.xlsx")
         sheet = workbook.sheet_by_name("Sheet2")
